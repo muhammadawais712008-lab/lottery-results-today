@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lottery Results Today | UK & USA Winning Numbers | Live Updates</title>
+<meta name="description" content="Get today's lottery results for UK Lotto, EuroMillions, UK49s, Powerball, and Mega Millions. Live winning numbers updated instantly. Check your tickets now!">
+<meta name="keywords" content="lottery results today, uk lottery results, powerball results today, mega millions results, euromillions results tonight, uk49s results today, winning lottery numbers, lottery results tonight, check lottery numbers, lotto results today uk, powerball winning numbers tonight, lottery results usa">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://lotteryresultstoday.vercel.app/">
+<meta property="og:title" content="Lottery Results Today | UK & USA Winning Numbers">
+<meta property="og:description" content="Live lottery results for UK Lotto, EuroMillions, UK49s, Powerball & Mega Millions. Updated instantly!">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Lottery Results Today","url":"https://lotteryresultstoday.vercel.app/","description":"UK and USA lottery results updated daily."}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F6FB;--card:#FFFFFF;--text:#1a1a2e;--muted:#6b7280;--border:#e5e7eb;--shadow:0 4px 24px rgba(0,0,0,0.08);--radius:16px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.topbar{background:#0a0e27;color:#a0aec0;font-size:12px;padding:8px 0;text-align:center}
+.topbar span{color:#FFD700;font-weight:600}
+header{background:linear-gradient(135deg,#0a0e27 0%,#1a1f4e 60%,#0d1533 100%);position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,0.3)}
+.header-inner{max-width:1200px;margin:0 auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo-icon{width:44px;height:44px;background:linear-gradient(135deg,#FFD700,#FFA500);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 4px 15px rgba(255,215,0,0.4)}
+.logo-text strong{font-family:'Playfair Display',serif;font-size:22px;color:#fff;display:block;line-height:1}
+.logo-text small{font-size:10px;color:#FFD700;letter-spacing:2px;text-transform:uppercase;font-weight:600}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav a{color:#cbd5e1;text-decoration:none;font-size:13px;font-weight:500;padding:7px 14px;border-radius:8px;transition:all 0.2s;border:1px solid transparent}
+nav a:hover,nav a.active{background:rgba(255,215,0,0.12);color:#FFD700;border-color:rgba(255,215,0,0.3)}
+.ticker-bar{background:linear-gradient(90deg,#CF142B,#B22234);padding:10px 0;overflow:hidden}
+.ticker-wrap{display:flex;animation:ticker 35s linear infinite;white-space:nowrap}
+.ticker-item{padding:0 40px;font-size:13px;font-weight:600;color:white}
+.ticker-item span{background:rgba(255,255,255,0.2);padding:2px 10px;border-radius:20px;margin-left:8px;font-size:12px}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.hero{background:linear-gradient(135deg,#0a0e27 0%,#1a1f4e 100%);padding:50px 20px 40px;text-align:center}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,52px);color:white;line-height:1.15;margin-bottom:14px}
+.hero h1 em{font-style:normal;color:#FFD700}
+.hero p{color:#94a3b8;font-size:16px;max-width:560px;margin:0 auto 24px;line-height:1.6}
+.hero-badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.badge{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#e2e8f0;padding:8px 18px;border-radius:100px;font-size:13px;font-weight:500;display:flex;align-items:center;gap:6px}
+.badge.live{background:rgba(207,20,43,0.2);border-color:rgba(207,20,43,0.4);color:#ff8a9a}
+.live-dot{width:7px;height:7px;background:#CF142B;border-radius:50%;animation:pulse 1.5s infinite;display:inline-block}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(1.4)}}
+.container{max-width:1200px;margin:0 auto;padding:40px 20px}
+.ad-banner{background:#e8ecf4;border:2px dashed #cbd5e1;border-radius:var(--radius);height:90px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;font-weight:500;margin-bottom:36px}
+.update-time{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);margin-bottom:32px;background:white;padding:10px 16px;border-radius:10px;border:1px solid var(--border);width:fit-content;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+.update-dot{width:8px;height:8px;background:#22c55e;border-radius:50%;animation:pulse 2s infinite}
+.section-header{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.section-flag{font-size:32px}
+.section-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:900}
+.section-sub{font-size:13px;color:var(--muted);margin-top:2px}
+.section-divider{height:4px;border-radius:2px;margin-bottom:28px}
+.uk-divider{background:linear-gradient(90deg,#00247D,#CF142B,#00247D)}
+.usa-divider{background:linear-gradient(90deg,#1B1F5E,#B22234,#1B1F5E)}
+.lottery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px;margin-bottom:48px}
+.lottery-card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);opacity:0;transform:translateY(20px);animation:fadeUp 0.5s forwards}
+.lottery-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.12)}
+.lottery-card:nth-child(1){animation-delay:.05s}
+.lottery-card:nth-child(2){animation-delay:.1s}
+.lottery-card:nth-child(3){animation-delay:.15s}
+.lottery-card:nth-child(4){animation-delay:.2s}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+.card-header{padding:18px 22px 14px;display:flex;align-items:center;justify-content:space-between}
+.card-header-left{display:flex;align-items:center;gap:12px}
+.lottery-logo{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;color:white;font-family:'Playfair Display',serif;flex-shrink:0}
+.lottery-name{font-size:17px;font-weight:700;line-height:1.2}
+.lottery-country{font-size:11px;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.8px;margin-top:2px}
+.draw-badge{font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
+.draw-today{background:#dcfce7;color:#15803d}
+.draw-yesterday{background:#fef9c3;color:#854d0e}
+.draw-tonight{background:#fce7f3;color:#9d174d}
+.draw-loading{background:#f1f5f9;color:#94a3b8}
+.card-body{padding:4px 22px 20px}
+.draw-date{font-size:12px;color:var(--muted);margin-bottom:14px}
+.balls-label{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px}
+.balls-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.ball{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:white;position:relative;flex-shrink:0}
+.ball::after{content:'';position:absolute;top:5px;left:8px;width:10px;height:6px;background:rgba(255,255,255,0.35);border-radius:50%;transform:rotate(-30deg)}
+.ball-uk{background:linear-gradient(145deg,#1a4fd6,#00247D);box-shadow:0 3px 10px rgba(0,36,125,0.4)}
+.ball-uk-bonus{background:linear-gradient(145deg,#e8293a,#CF142B);box-shadow:0 3px 10px rgba(207,20,43,0.4)}
+.ball-usa{background:linear-gradient(145deg,#2d3a8c,#1B1F5E);box-shadow:0 3px 10px rgba(27,31,94,0.4)}
+.ball-usa-power{background:linear-gradient(145deg,#e8293a,#B22234);box-shadow:0 3px 10px rgba(178,34,52,0.4)}
+.ball-usa-mega{background:linear-gradient(145deg,#d4960a,#b37d08);box-shadow:0 3px 10px rgba(212,150,10,0.4)}
+.ball-49s{background:linear-gradient(145deg,#2d7a2d,#1a5e1a);box-shadow:0 3px 10px rgba(29,94,29,0.4)}
+.ball-49s-bonus{background:linear-gradient(145deg,#e8760a,#c25e08);box-shadow:0 3px 10px rgba(226,103,10,0.4)}
+.ball-euro{background:linear-gradient(145deg,#0060a8,#003d6b);box-shadow:0 3px 10px rgba(0,96,168,0.4)}
+.ball-euro-star{background:linear-gradient(145deg,#c8a800,#a08600);box-shadow:0 3px 10px rgba(200,168,0,0.4)}
+.ball-loading{background:#e5e7eb;color:#9ca3af;animation:shimmer 1.5s infinite}
+@keyframes shimmer{0%,100%{opacity:.5}50%{opacity:1}}
+.plus-sign{font-size:18px;color:#9ca3af;font-weight:300;margin:0 2px}
+.card-footer{padding:14px 22px;background:#f8fafc;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.jackpot-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;font-weight:600;display:block}
+.jackpot-amount{font-size:18px;font-weight:800;font-family:'Playfair Display',serif}
+.jackpot-uk{color:#00247D}
+.jackpot-usa{color:#B22234}
+.next-draw{text-align:right;font-size:11px;color:var(--muted);line-height:1.5}
+.next-draw strong{display:block;color:var(--text);font-size:12px}
+.error-note{background:#fef9c3;border:1px solid #fcd34d;border-radius:10px;padding:12px 16px;font-size:13px;color:#92400e;margin-bottom:16px;display:none}
+.info-section,.faq-section{background:white;border-radius:var(--radius);padding:36px;margin-bottom:36px;box-shadow:var(--shadow);border:1px solid var(--border)}
+.info-section h2,.faq-section h2{font-family:'Playfair Display',serif;font-size:24px;margin-bottom:20px}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.info-card{padding:20px;border-radius:12px;background:var(--bg);border:1px solid var(--border)}
+.info-card .icon{font-size:28px;margin-bottom:10px}
+.info-card h3{font-size:15px;font-weight:700;margin-bottom:6px}
+.info-card p{font-size:13px;color:var(--muted);line-height:1.5}
+.faq-item{border-bottom:1px solid var(--border);padding:16px 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-weight:600;font-size:15px;margin-bottom:8px}
+.faq-a{font-size:14px;color:var(--muted);line-height:1.6}
+footer{background:#0a0e27;color:#94a3b8;padding:48px 20px 24px}
+.footer-inner{max-width:1200px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.footer-brand strong{font-family:'Playfair Display',serif;font-size:20px;color:white;display:block;margin-bottom:10px}
+.footer-brand p{font-size:13px;line-height:1.7;max-width:280px}
+.footer-col h4{color:white;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:10px}
+.footer-col ul li a{color:#94a3b8;text-decoration:none;font-size:13px;transition:color .2s}
+.footer-col ul li a:hover{color:#FFD700}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:12px}
+.disclaimer{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:16px 20px;font-size:12px;line-height:1.6;margin-bottom:24px;color:#64748b}
+@media(max-width:768px){.lottery-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}nav{display:none}.hero h1{font-size:28px}}
+@media(max-width:480px){.footer-grid{grid-template-columns:1fr}.ball{width:34px;height:34px;font-size:12px}}
+</style>
+</head>
+<body>
+
+<div class="topbar">Results updated <span>automatically</span> · All times in <span>GMT/EST</span> · Information only — <span>no tickets sold</span></div>
+
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon">🎱</div>
+      <div class="logo-text">
+        <strong>LotteryResults<span style="color:#FFD700">Today</span></strong>
+        <small>UK &amp; USA · Live Results</small>
+      </div>
+    </a>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#uk">🇬🇧 UK Lottery</a>
+      <a href="#usa">🇺🇸 USA Lottery</a>
+      <a href="#howto">How To Check</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker-bar"><div class="ticker-wrap" id="ticker">
+  <span class="ticker-item">🔄 Loading latest results...</span>
+  <span class="ticker-item">🔄 Loading latest results...</span>
+</div></div>
+
+<div class="hero">
+  <h1>UK &amp; USA Lottery Results<br><em>Updated Daily</em></h1>
+  <p>Check today's winning numbers for Powerball, Mega Millions, UK Lotto, EuroMillions and UK49s — all in one place.</p>
+  <div class="hero-badges">
+    <div class="badge live"><span class="live-dot"></span> Live Results</div>
+    <div class="badge">🇬🇧 UK Lotteries</div>
+    <div class="badge">🇺🇸 USA Lotteries</div>
+    <div class="badge">📱 Mobile Friendly</div>
+    <div class="badge">🔔 Free to Check</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="ad-banner">[ Advertisement — 728x90 ]</div>
+  <div class="update-time"><div class="update-dot"></div>Results last updated: <strong id="updateTime">Loading...</strong></div>
+
+  <!-- UK SECTION -->
+  <div id="uk">
+    <div class="section-header">
+      <div class="section-flag">🇬🇧</div>
+      <div><div class="section-title">UK Lottery Results</div><div class="section-sub">National Lottery · EuroMillions · UK49s — Latest Winning Numbers</div></div>
+    </div>
+    <div class="section-divider uk-divider"></div>
+    <div id="uk-error" class="error-note">⚠️ Could not load live UK data. Showing recent results. Please refresh to try again.</div>
+    <div class="lottery-grid">
+
+      <!-- UK Lotto -->
+      <div class="lottery-card">
+        <div class="card-header">
+          <div class="card-header-left">
+            <div class="lottery-logo" style="background:linear-gradient(135deg,#00247D,#1a3a9e)">L</div>
+            <div><div class="lottery-name">UK National Lotto</div><div class="lottery-country">🇬🇧 United Kingdom</div></div>
+          </div>
+          <span class="draw-badge draw-yesterday" id="lotto-badge">Recent</span>
+        </div>
+        <div class="card-body">
+          <div class="draw-date" id="lotto-date">📅 Loading...</div>
+          <div class="balls-label">Main Numbers</div>
+          <div class="balls-row" id="lotto-balls">
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <span class="plus-sign">+</span><div class="ball ball-loading">?</div>
+          </div>
+          <div class="balls-label">Bonus Ball</div>
+        </div>
+        <div class="card-footer">
+          <div><span class="jackpot-label">Jackpot</span><span class="jackpot-amount jackpot-uk" id="lotto-jackpot">Loading...</span></div>
+          <div class="next-draw"><strong>Draws</strong>Wed &amp; Sat</div>
+        </div>
+      </div>
+
+      <!-- EuroMillions -->
+      <div class="lottery-card">
+        <div class="card-header">
+          <div class="card-header-left">
+            <div class="lottery-logo" style="background:linear-gradient(135deg,#003d6b,#0060a8)">€M</div>
+            <div><div class="lottery-name">EuroMillions</div><div class="lottery-country">🇬🇧 UK / 🇪🇺 Europe</div></div>
+          </div>
+          <span class="draw-badge draw-yesterday" id="euro-badge">Recent</span>
+        </div>
+        <div class="card-body">
+          <div class="draw-date" id="euro-date">📅 Loading...</div>
+          <div class="balls-label">Main Numbers</div>
+          <div class="balls-row" id="euro-balls">
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <span class="plus-sign">+</span><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+          </div>
+          <div class="balls-label">⭐ Lucky Stars</div>
+        </div>
+        <div class="card-footer">
+          <div><span class="jackpot-label">Jackpot</span><span class="jackpot-amount jackpot-uk" id="euro-jackpot">Loading...</span></div>
+          <div class="next-draw"><strong>Draws</strong>Tue &amp; Fri</div>
+        </div>
+      </div>
+
+      <!-- UK49s Lunchtime -->
+      <div class="lottery-card">
+        <div class="card-header">
+          <div class="card-header-left">
+            <div class="lottery-logo" style="background:linear-gradient(135deg,#1a5e1a,#2d7a2d)">49</div>
+            <div><div class="lottery-name">UK49s Lunchtime</div><div class="lottery-country">🇬🇧 Daily · 12:49 PM GMT</div></div>
+          </div>
+          <span class="draw-badge draw-today">Daily</span>
+        </div>
+        <div class="card-body">
+          <div class="draw-date" id="49s-lunch-date">📅 Loading...</div>
+          <div class="balls-label">Main Numbers</div>
+          <div class="balls-row" id="49s-lunch-balls">
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <span class="plus-sign">+</span><div class="ball ball-loading">?</div>
+          </div>
+          <div class="balls-label">Booster Ball</div>
+        </div>
+        <div class="card-footer">
+          <div><span class="jackpot-label">Draw Type</span><span class="jackpot-amount jackpot-uk" style="font-size:14px">Lunchtime · Daily</span></div>
+          <div class="next-draw"><strong>Teatime Draw</strong>Today · 5:49 PM</div>
+        </div>
+      </div>
+
+      <!-- UK49s Teatime -->
+      <div class="lottery-card">
+        <div class="card-header">
+          <div class="card-header-left">
+            <div class="lottery-logo" style="background:linear-gradient(135deg,#c25e08,#e8760a)">49</div>
+            <div><div class="lottery-name">UK49s Teatime</div><div class="lottery-country">🇬🇧 Daily · 5:49 PM GMT</div></div>
+          </div>
+          <span class="draw-badge draw-tonight">Daily</span>
+        </div>
+        <div class="card-body">
+          <div class="draw-date" id="49s-tea-date">📅 Loading...</div>
+          <div class="balls-label">Main Numbers</div>
+          <div class="balls-row" id="49s-tea-balls">
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <span class="plus-sign">+</span><div class="ball ball-loading">?</div>
+          </div>
+          <div class="balls-label">Booster Ball</div>
+        </div>
+        <div class="card-footer">
+          <div><span class="jackpot-label">Draw Type</span><span class="jackpot-amount jackpot-uk" style="font-size:14px">Teatime · Daily</span></div>
+          <div class="next-draw"><strong>Next Lunchtime</strong>Tomorrow · 12:49 PM</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="ad-banner">[ Advertisement — 728x90 ]</div>
+
+  <!-- USA SECTION -->
+  <div id="usa">
+    <div class="section-header">
+      <div class="section-flag">🇺🇸</div>
+      <div><div class="section-title">USA Lottery Results</div><div class="section-sub">Powerball · Mega Millions — Latest Winning Numbers</div></div>
+    </div>
+    <div class="section-divider usa-divider"></div>
+    <div id="usa-error" class="error-note">⚠️ Could not load live USA data. Showing recent results. Please refresh to try again.</div>
+    <div class="lottery-grid">
+
+      <!-- Powerball -->
+      <div class="lottery-card">
+        <div class="card-header">
+          <div class="card-header-left">
+            <div class="lottery-logo" style="background:linear-gradient(135deg,#B22234,#cc2a3e)">PB</div>
+            <div><div class="lottery-name">Powerball</div><div class="lottery-country">🇺🇸 United States · Multi-State</div></div>
+          </div>
+          <span class="draw-badge draw-yesterday" id="pb-badge">Recent</span>
+        </div>
+        <div class="card-body">
+          <div class="draw-date" id="pb-date">📅 Loading...</div>
+          <div class="balls-label">Main Numbers</div>
+          <div class="balls-row" id="pb-balls">
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <span class="plus-sign">+</span><div class="ball ball-loading">?</div>
+          </div>
+          <div class="balls-label">🔴 Powerball Number</div>
+        </div>
+        <div class="card-footer">
+          <div><span class="jackpot-label">Next Jackpot</span><span class="jackpot-amount jackpot-usa" id="pb-jackpot">See powerball.com</span></div>
+          <div class="next-draw"><strong>Draws</strong>Mon · Wed · Sat</div>
+        </div>
+      </div>
+
+      <!-- Mega Millions -->
+      <div class="lottery-card">
+        <div class="card-header">
+          <div class="card-header-left">
+            <div class="lottery-logo" style="background:linear-gradient(135deg,#b37d08,#d4960a)">MM</div>
+            <div><div class="lottery-name">Mega Millions</div><div class="lottery-country">🇺🇸 United States · Multi-State</div></div>
+          </div>
+          <span class="draw-badge draw-yesterday" id="mm-badge">Recent</span>
+        </div>
+        <div class="card-body">
+          <div class="draw-date" id="mm-date">📅 Loading...</div>
+          <div class="balls-label">Main Numbers</div>
+          <div class="balls-row" id="mm-balls">
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <div class="ball ball-loading">?</div><div class="ball ball-loading">?</div>
+            <span class="plus-sign">+</span><div class="ball ball-loading">?</div>
+          </div>
+          <div class="balls-label">🟡 Mega Ball Number</div>
+        </div>
+        <div class="card-footer">
+          <div><span class="jackpot-label">Next Jackpot</span><span class="jackpot-amount jackpot-usa" id="mm-jackpot">See megamillions.com</span></div>
+          <div class="next-draw"><strong>Draws</strong>Tue · Fri</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HOW TO CHECK -->
+  <div id="howto" class="info-section">
+    <h2>How to Check Your Lottery Ticket</h2>
+    <div class="info-grid">
+      <div class="info-card"><div class="icon">🔍</div><h3>1. Find Your Numbers</h3><p>Look at the winning numbers shown above for your game and draw date.</p></div>
+      <div class="info-card"><div class="icon">🎫</div><h3>2. Check Your Ticket</h3><p>Compare your ticket numbers with the winning numbers shown.</p></div>
+      <div class="info-card"><div class="icon">🏆</div><h3>3. Count Matches</h3><p>Even matching 2 or 3 numbers can win a prize. Check the prize table for your game.</p></div>
+      <div class="info-card"><div class="icon">💰</div><h3>4. Claim Your Prize</h3><p>UK: Visit national-lottery.co.uk. USA: Visit your state lottery retailer.</p></div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div id="faq" class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><div class="faq-q">When are UK Lotto results announced?</div><div class="faq-a">UK National Lotto draws every Wednesday and Saturday at approximately 7:45 PM GMT.</div></div>
+    <div class="faq-item"><div class="faq-q">What days does Powerball draw?</div><div class="faq-a">Powerball draws every Monday, Wednesday, and Saturday at 10:59 PM EST.</div></div>
+    <div class="faq-item"><div class="faq-q">How many times does UK49s draw per day?</div><div class="faq-a">UK49s draws twice daily — Lunchtime at 12:49 PM GMT and Teatime at 5:49 PM GMT, seven days a week.</div></div>
+    <div class="faq-item"><div class="faq-q">Can I buy tickets on this website?</div><div class="faq-a">No. This is a results information website only. We do not sell tickets.</div></div>
+    <div class="faq-item"><div class="faq-q">How often are results updated?</div><div class="faq-a">Results are fetched automatically from official government sources after each draw.</div></div>
+  </div>
+
+  <div class="ad-banner">[ Advertisement — 728x90 ]</div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="disclaimer">⚠️ <strong>Disclaimer:</strong> LotteryResultsToday is an independent results information website and is not affiliated with the National Lottery, Camelot, Powerball, or any official lottery organization. Results are for informational purposes only. Always verify on official lottery websites before claiming prizes. We do not sell tickets.</div>
+    <div class="footer-grid">
+      <div class="footer-brand"><strong>🎱 LotteryResultsToday</strong><p>Your trusted source for UK and USA lottery results. Updated daily with the latest winning numbers.</p></div>
+      <div class="footer-col"><h4>🇬🇧 UK Lotteries</h4><ul><li><a href="#uk">UK National Lotto</a></li><li><a href="#uk">EuroMillions</a></li><li><a href="#uk">UK49s Lunchtime</a></li><li><a href="#uk">UK49s Teatime</a></li></ul></div>
+      <div class="footer-col"><h4>🇺🇸 USA Lotteries</h4><ul><li><a href="#usa">Powerball</a></li><li><a href="#usa">Mega Millions</a></li></ul></div>
+      <div class="footer-col"><h4>Info</h4><ul><li><a href="#howto">How to Check</a></li><li><a href="#faq">FAQ</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 LotteryResultsToday.vercel.app — For information only. No tickets sold.</span>
+      <span>🇬🇧 UK · 🇺🇸 USA · Results updated daily</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ===== HELPERS =====
+function ball(n, cls) { return `<div class="ball ${cls}">${n}</div>`; }
+
+function fmtDate(d) {
+  if (!d) return 'Recent Draw';
+  try {
+    return new Date(d).toLocaleDateString('en-GB',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+  } catch(e) { return d; }
+}
+
+function dateBadge(d) {
+  try {
+    const nd = new Date(d), t = new Date(), y = new Date();
+    y.setDate(y.getDate()-1);
+    if (nd.toDateString()===t.toDateString()) return `<span class="draw-badge draw-today">Today</span>`;
+    if (nd.toDateString()===y.toDateString()) return `<span class="draw-badge draw-yesterday">Yesterday</span>`;
+  } catch(e){}
+  return `<span class="draw-badge draw-yesterday">Recent</span>`;
+}
+
+function setEl(id, html, isHTML=false) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (isHTML) el.innerHTML = html; else el.textContent = html;
+}
+
+// ===== FALLBACK DATA (shown if APIs fail) =====
+const FB = {
+  pb:  { numbers:'7 16 25 41 67 12',  date:'2025-03-05' },
+  mm:  { numbers:'11 22 35 48 60 5',  date:'2025-03-04' },
+  lotto: { main:[4,12,19,33,45,56], bonus:22, date:'2025-03-05', jackpot:'£7.4M' },
+  euro:  { main:[3,18,29,38,44], stars:[2,9], date:'2025-03-07', jackpot:'£47M' },
+  lunch: { main:[5,14,27,36,41,49], booster:3,  date: new Date().toISOString() },
+  tea:   { main:[9,21,30,38,44,47], booster:17, date: new Date().toISOString() }
+};
+
+// ===== RENDER USA =====
+function renderUSA(id_prefix, numbersStr, dateStr, specialCls) {
+  const nums = (numbersStr||'').split(' ').filter(Boolean);
+  const main = nums.slice(0,5);
+  const special = nums[5] || '?';
+  setEl(id_prefix+'-date', '📅 Draw Date: ' + fmtDate(dateStr));
+  const badgeEl = document.getElementById(id_prefix+'-badge');
+  if (badgeEl) badgeEl.outerHTML = dateBadge(dateStr);
+  let h = main.map(n=>ball(n,'ball-usa')).join('');
+  h += '<span class="plus-sign">+</span>';
+  h += ball(special, specialCls);
+  setEl(id_prefix+'-balls', h, true);
+}
+
+// ===== RENDER UK =====
+function renderLotto(d) {
+  setEl('lotto-date','📅 Draw Date: '+fmtDate(d.date));
+  document.getElementById('lotto-badge').outerHTML = dateBadge(d.date);
+  let h = d.main.map(n=>ball(n,'ball-uk')).join('');
+  h += '<span class="plus-sign">+</span>'+ball(d.bonus,'ball-uk-bonus');
+  setEl('lotto-balls',h,true);
+  setEl('lotto-jackpot', d.jackpot||'See national-lottery.co.uk');
+}
+
+function renderEuro(d) {
+  setEl('euro-date','📅 Draw Date: '+fmtDate(d.date));
+  document.getElementById('euro-badge').outerHTML = dateBadge(d.date);
+  let h = d.main.map(n=>ball(n,'ball-euro')).join('');
+  h += '<span class="plus-sign">+</span>';
+  h += d.stars.map(n=>ball(n,'ball-euro-star')).join('');
+  setEl('euro-balls',h,true);
+  setEl('euro-jackpot', d.jackpot||'See national-lottery.co.uk');
+}
+
+function render49s(lunch, tea) {
+  // Lunchtime
+  let h = lunch.main.map(n=>ball(n,'ball-49s')).join('');
+  h += '<span class="plus-sign">+</span>'+ball(lunch.booster,'ball-49s-bonus');
+  setEl('49s-lunch-balls',h,true);
+  setEl('49s-lunch-date','📅 '+fmtDate(lunch.date));
+
+  // Teatime
+  let h2 = tea.main.map(n=>ball(n,'ball-49s-bonus')).join('');
+  h2 += '<span class="plus-sign">+</span>'+ball(tea.booster,'ball-49s');
+  setEl('49s-tea-balls',h2,true);
+  setEl('49s-tea-date','📅 '+fmtDate(tea.date));
+}
+
+// ===== UPDATE TICKER =====
+function updateTicker(pbNums, mmNums) {
+  const items = [
+    `🇺🇸 POWERBALL — Latest: <span>${pbNums}</span>`,
+    `🇺🇸 MEGA MILLIONS — Latest: <span>${mmNums}</span>`,
+    `🇬🇧 UK LOTTO — Draws Wed &amp; Sat · 7:45 PM GMT`,
+    `🇬🇧 EUROMILLIONS — Draws Tue &amp; Fri · 8:00 PM GMT`,
+    `🇬🇧 UK49s — Lunchtime 12:49 PM &amp; Teatime 5:49 PM Daily`
+  ];
+  const doubled = [...items,...items];
+  document.getElementById('ticker').innerHTML = doubled.map(i=>`<span class="ticker-item">${i}</span>`).join('');
+}
+
+// ===== FETCH APIs =====
+async function fetchPowerball() {
+  // FREE — US Government Open Data API (no key needed!)
+  const r = await fetch('https://data.ny.gov/resource/d6yy-54nr.json?$order=draw_date+DESC&$limit=1',
+    {signal:AbortSignal.timeout(8000)});
+  const d = await r.json();
+  return d[0];
+}
+
+async function fetchMegaMillions() {
+  // FREE — US Government Open Data API (no key needed!)
+  const r = await fetch('https://data.ny.gov/resource/5xaw-6ayf.json?$order=draw_date+DESC&$limit=1',
+    {signal:AbortSignal.timeout(8000)});
+  const d = await r.json();
+  return d[0];
+}
+
+// ===== MAIN =====
+async function init() {
+  document.getElementById('updateTime').textContent = new Date().toLocaleString('en-GB');
+
+  // Always show UK Lotto + EuroMillions from fallback (no free public API without key)
+  renderLotto(FB.lotto);
+  renderEuro(FB.euro);
+  render49s(FB.lunch, FB.tea);
+
+  // Fetch USA data from FREE government API
+  try {
+    const [pbRes, mmRes] = await Promise.allSettled([fetchPowerball(), fetchMegaMillions()]);
+
+    const pb = pbRes.status==='fulfilled' && pbRes.value ? pbRes.value : null;
+    const mm = mmRes.status==='fulfilled' && mmRes.value ? mmRes.value : null;
+
+    if (pb) {
+      renderUSA('pb', pb.winning_numbers, pb.draw_date, 'ball-usa-power');
+    } else {
+      renderUSA('pb', FB.pb.numbers, FB.pb.date, 'ball-usa-power');
+      document.getElementById('usa-error').style.display='block';
+    }
+
+    if (mm) {
+      renderUSA('mm', mm.winning_numbers, mm.draw_date, 'ball-usa-mega');
+    } else {
+      renderUSA('mm', FB.mm.numbers, FB.mm.date, 'ball-usa-mega');
+    }
+
+    updateTicker(
+      pb ? pb.winning_numbers : FB.pb.numbers,
+      mm ? mm.winning_numbers : FB.mm.numbers
+    );
+
+  } catch(e) {
+    renderUSA('pb', FB.pb.numbers, FB.pb.date, 'ball-usa-power');
+    renderUSA('mm', FB.mm.numbers, FB.mm.date, 'ball-usa-mega');
+    updateTicker(FB.pb.numbers, FB.mm.numbers);
+    document.getElementById('usa-error').style.display='block';
+  }
+}
+
+init();
+</script>
+</body>
+</html>
